@@ -2,7 +2,7 @@
 
 See [proposal.md](proposal.md) for motivation and scope. Docket currently has OpenSpec exploration and workflow configuration but no application package or main specifications. This workspace runs Windows; Flutter and Dart commands are discoverable at `C:/Users/cnhyn/Flutter/flutter/bin`, but their versions and installed platform toolchains have not been validated by this planning work.
 
-The [reference audit](../../explorations/2026-10-03-taskmaster-reference-audit.md) pins the inspected Taskmaster revision and describes the shell. The [exploration](../../explorations/2026-10-03-docket-foundation.md) contains source links and provisional technology comparisons. This design selects only what the foundation needs. Runtime evidence produced during apply must supersede assumptions in those notes.
+The [reference audit](../../../explorations/2026-10-03-taskmaster-reference-audit.md) pins the inspected Taskmaster revision and describes the shell. The [exploration](../../../explorations/2026-10-03-docket-foundation.md) contains source links and provisional technology comparisons. This design selects only what the foundation needs. Runtime evidence produced during apply must supersede assumptions in those notes.
 
 ## Goals / Non-Goals
 
