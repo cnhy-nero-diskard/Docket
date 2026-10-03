@@ -2,12 +2,18 @@
 
 Validated 2026-10-03 (Asia/Taipei). **Minimum foundation acceptance PASS.** Source base
 `9c542bc55b1c96c96e0cf90a1b1afe78758853dc`, branch
-`feat/validate-cross-platform-foundations`; implementation is an uncommitted diff.
+`feat/validate-cross-platform-foundations`; validation ran against the uncommitted
+implementation, subsequently committed as `93dd103` (evidence in `5590da9`).
 No deployment, account integration, task schema, or synchronization is included.
 The retained [source manifest](evidence/source-manifest.json) identifies the
 implementation/configuration files by SHA256. Browser evidence also records the
 hash-derived complete release ID. Exact reproduction commands are in the
 [platform runbook](platform-runbook.md).
+
+The source manifest is the original pre-archive validation snapshot. Its change
+paths now live under `openspec/changes/archive/2026-10-03-validate-cross-platform-foundations/`.
+Archiving also updated the README link and the verification command to validate
+all current specs; the application and tests are unchanged from the tested source.
 
 ## Toolchain inventory
 

@@ -11,7 +11,7 @@ The ordinary launch is intentionally empty. To exercise disposable records:
 - [Platform runbook and verification commands](docs/platform-runbook.md)
 - [Foundation validation and coverage limits](docs/foundation-validation.md)
 - [Optional-account feasibility decision](docs/auth-feasibility.md)
-- [Active OpenSpec change](openspec/changes/validate-cross-platform-foundations/proposal.md)
+- [Archived foundation change](openspec/changes/archive/2026-10-03-validate-cross-platform-foundations/proposal.md)
 
 The `main_acceptance.dart` and `main_native_acceptance.dart` entrypoints are
 explicit test harnesses. Do not distribute them as the ordinary application.

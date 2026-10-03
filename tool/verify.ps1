@@ -17,5 +17,5 @@ try {
   Invoke-DocketCheck 'format' { dart format --output=none --set-exit-if-changed lib test integration_test }
   Invoke-DocketCheck 'analyze' { flutter analyze --no-pub }
   Invoke-DocketCheck 'common-tests' { flutter test --no-pub --reporter expanded }
-  Invoke-DocketCheck 'openspec' { openspec.cmd validate validate-cross-platform-foundations --strict }
+  Invoke-DocketCheck 'openspec' { openspec.cmd validate --all --strict --no-interactive }
 } finally { Pop-Location }
