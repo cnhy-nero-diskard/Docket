@@ -1,0 +1,20 @@
+schema: spec-driven
+
+context: |
+  Docket is a new local-first personal task manager inspired by Microsoft To Do.
+  Flutter and Dart are settled, targeting Android, iOS, Windows, macOS, Linux, and Web.
+  Accounts are optional: core local functionality must work without signing in.
+  Standard cloud encryption and recoverable accounts are the chosen initial privacy model.
+  Local database transactions must precede synchronization; normal edits cannot require the network.
+  Synchronization and historical backups are separate capabilities.
+  Taskmaster is a visual and behavioral reference only; independently implement code and assets.
+  Read openspec/explorations/2026-10-03-docket-foundation.md and its linked reference audit.
+  Exploration recommendations are provisional, not approved implementation requirements.
+
+rules:
+  proposal:
+    - Identify the milestone, non-goals, and which exploration recommendations become requirements.
+    - Include web and desktop implications wherever the capability affects them.
+  design:
+    - State local data ownership, failure behavior, and migration implications where relevant.
+    - For sync-sensitive changes, explain concurrent edits, deletion, retries, and recovery.
