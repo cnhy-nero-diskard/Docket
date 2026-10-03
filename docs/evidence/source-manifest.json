@@ -1,0 +1,887 @@
+{
+  "base": "9c542bc55b1c96c96e0cf90a1b1afe78758853dc",
+  "branch": "feat/validate-cross-platform-foundations",
+  "state": "Uncommitted implementation; hashes identify the retained source and planning files",
+  "files": [
+    {
+      "path": ".agents/skills/.openspec-target",
+      "sha256": "ba0026f0a550d68592c195ccb5f042bdb4d5b675723d24995dbeee9d1be1be74"
+    },
+    {
+      "path": ".agents/skills/openspec-apply-change/SKILL.md",
+      "sha256": "4330caf519db210b39e7c443869495d7841c409018b666e483441298a28b87c2"
+    },
+    {
+      "path": ".agents/skills/openspec-archive-change/SKILL.md",
+      "sha256": "4dec91a549fc95b5d21ce40f654828ce71a65954502e58108983461de234648b"
+    },
+    {
+      "path": ".agents/skills/openspec-explore/SKILL.md",
+      "sha256": "c59545d16c6265aa75662e21988663f4c4e62cca276c32deaf6d0150ca19a931"
+    },
+    {
+      "path": ".agents/skills/openspec-propose/SKILL.md",
+      "sha256": "bc9d67495aff8ee47ba3d16d536908b7d28b81839ea7359342878ce67310080a"
+    },
+    {
+      "path": ".agents/skills/openspec-sync-specs/SKILL.md",
+      "sha256": "07740c1360b2c0332e1953ad311de163f973607adbe014ca20c747a6de0d6a93"
+    },
+    {
+      "path": ".agents/skills/openspec-update-change/SKILL.md",
+      "sha256": "d45b21440b26aed493eb754172fd5f5acf51fb99a5253b145bc76dedd33f5adc"
+    },
+    {
+      "path": ".claude/commands/opsx/apply.md",
+      "sha256": "9f29bd51d1491ab8a42b272413444d9a4a016ff45d61edc931cc40323cc8bc55"
+    },
+    {
+      "path": ".claude/commands/opsx/archive.md",
+      "sha256": "4b20e3317a8cce58246315ae03a82cad6ed9ddce58a75c91d1c222c86bc3cbf9"
+    },
+    {
+      "path": ".claude/commands/opsx/explore.md",
+      "sha256": "f208f74ea0e35688067389e5fa5259d530afb1614f85f24191f2134b098189df"
+    },
+    {
+      "path": ".claude/commands/opsx/propose.md",
+      "sha256": "88dbeb91627b8a59b89dba0886f292a4b6b0515e68fbfa5e2798ab53c863b69d"
+    },
+    {
+      "path": ".claude/commands/opsx/sync.md",
+      "sha256": "84e8cd4bc526c1691d4c7f04f28287232d05bbb99534f1b64386e8bed87432b1"
+    },
+    {
+      "path": ".claude/commands/opsx/update.md",
+      "sha256": "45ad6fe7eec3487de8fc80a89a67d644a7034ba3c31b97f9b717fe3ec296f5aa"
+    },
+    {
+      "path": ".claude/skills/openspec-apply-change/SKILL.md",
+      "sha256": "e859d7f590a75f6d98915afbc4c7340a8fe3184f8b8b2e6537869c37ae7ff72b"
+    },
+    {
+      "path": ".claude/skills/openspec-archive-change/SKILL.md",
+      "sha256": "a8b80e6f52a03da0df9b47d2be07ca0fe6bc74bffc2c3f4e5cac174a5fb57b18"
+    },
+    {
+      "path": ".claude/skills/openspec-explore/SKILL.md",
+      "sha256": "936fc5cc1a68a87ce99145adbb419fc17301c8d2464133a90f0448db78338bb4"
+    },
+    {
+      "path": ".claude/skills/openspec-propose/SKILL.md",
+      "sha256": "5345f333944d1ae5ca1af0410bf1a0250d2d23df589540518dfe7a2ed4e5a4ae"
+    },
+    {
+      "path": ".claude/skills/openspec-sync-specs/SKILL.md",
+      "sha256": "f42a6214ec8571122b4f8390ab5824fd73cd37bac79e9a27fedb231034fadbc3"
+    },
+    {
+      "path": ".claude/skills/openspec-update-change/SKILL.md",
+      "sha256": "c737d09729bc6243cf41bdfc5acf8eac682b9b7830ac5c9cb95dde55aa6533d1"
+    },
+    {
+      "path": ".cline/skills/openspec-apply-change/SKILL.md",
+      "sha256": "51664f2fe26462bb070128580a98fc0bf50b7c152471b579e54d5e8730406381"
+    },
+    {
+      "path": ".cline/skills/openspec-archive-change/SKILL.md",
+      "sha256": "5c101ed8420098b2d66ab97540801a8a1794ee6c03a3f9ea2f0cc51789821f8b"
+    },
+    {
+      "path": ".cline/skills/openspec-explore/SKILL.md",
+      "sha256": "efa560bb447d9ee8db1b930f713556772ca3f96e584cb3ccf9a4e4b3b367b3ff"
+    },
+    {
+      "path": ".cline/skills/openspec-propose/SKILL.md",
+      "sha256": "36c73fb667d3ec74ce82777b85b39fff6eb29f727d4884e7726dfb743e09d3dd"
+    },
+    {
+      "path": ".cline/skills/openspec-sync-specs/SKILL.md",
+      "sha256": "7c58f6e7c406cc92ed8348030b4a442a846a21cfecc8461499ad827f4cfbb177"
+    },
+    {
+      "path": ".cline/skills/openspec-update-change/SKILL.md",
+      "sha256": "56a18e1630807a857bd4d19cd1ac37505326b2e4411e7f3e87651f6e615bb22b"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-apply.md",
+      "sha256": "edf5f2f5d0c79d04b9bc5cb8861e58635942731e0f35da92ad03e7407d231513"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-archive.md",
+      "sha256": "1aedc24e1d1addf3bccb4b4eaa948b69ee5d92f7f148391d442ccaebd01607cf"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-explore.md",
+      "sha256": "1df9985b463951efefc6d96751aca94d6186bd5d869fcfd4c77e6758ea6bd25f"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-propose.md",
+      "sha256": "82961f88979ff9ce1990e6caf2a1b09139319439fd4e6b2830ca8424befc6f90"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-sync.md",
+      "sha256": "c0a479f293740c7b834b3ef01ed680caf3b734db8d2a44c77f701d4053ad925a"
+    },
+    {
+      "path": ".clinerules/workflows/opsx-update.md",
+      "sha256": "9d04a498dd55693f22b6e3c30f15e995a7166bb2f21c6e452a46088efd293d9f"
+    },
+    {
+      "path": ".github/workflows/foundation.yml",
+      "sha256": "4046aef8bb38dc89c58ce8667e7241c02b18095f33dbea88ccd15031078c6a4c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "56af3d8915b3155eb883ab66ad528afa5eee23d24356918209c3a42985ad03a6"
+    },
+    {
+      "path": ".metadata",
+      "sha256": "6e92d03badcc96982d145443bf39760c3bc74b25ba4a6303d86629aade7a1c37"
+    },
+    {
+      "path": ".opencode/commands/opsx-apply.md",
+      "sha256": "6659cd976ed4e0d3dad9f122cb70f4da3230007a0d6a61d123cdacd2fa0d84f9"
+    },
+    {
+      "path": ".opencode/commands/opsx-archive.md",
+      "sha256": "7bc07a826442448bb0ec70cb7da1dbfab0ea25e6f508fadab07f06cbbf6b88bf"
+    },
+    {
+      "path": ".opencode/commands/opsx-explore.md",
+      "sha256": "1439fe13e5f4d5b70d230ec175b741a5ad78fd65daec1ce270eff20006f638b7"
+    },
+    {
+      "path": ".opencode/commands/opsx-propose.md",
+      "sha256": "b2266f5c866aa8069ea074581b9e3278fd57649f76a522f5d93d5e101b049617"
+    },
+    {
+      "path": ".opencode/commands/opsx-sync.md",
+      "sha256": "5d842352c4184e3cf2fde0f44c1e97ad49c253fe490bac1f00f7214da35b5dde"
+    },
+    {
+      "path": ".opencode/commands/opsx-update.md",
+      "sha256": "3736d04fcde884c7ef324615f8c84c64f47ad73bced54a62df581c6d12d41b17"
+    },
+    {
+      "path": ".opencode/skills/openspec-apply-change/SKILL.md",
+      "sha256": "51664f2fe26462bb070128580a98fc0bf50b7c152471b579e54d5e8730406381"
+    },
+    {
+      "path": ".opencode/skills/openspec-archive-change/SKILL.md",
+      "sha256": "5c101ed8420098b2d66ab97540801a8a1794ee6c03a3f9ea2f0cc51789821f8b"
+    },
+    {
+      "path": ".opencode/skills/openspec-explore/SKILL.md",
+      "sha256": "efa560bb447d9ee8db1b930f713556772ca3f96e584cb3ccf9a4e4b3b367b3ff"
+    },
+    {
+      "path": ".opencode/skills/openspec-propose/SKILL.md",
+      "sha256": "36c73fb667d3ec74ce82777b85b39fff6eb29f727d4884e7726dfb743e09d3dd"
+    },
+    {
+      "path": ".opencode/skills/openspec-sync-specs/SKILL.md",
+      "sha256": "7c58f6e7c406cc92ed8348030b4a442a846a21cfecc8461499ad827f4cfbb177"
+    },
+    {
+      "path": ".opencode/skills/openspec-update-change/SKILL.md",
+      "sha256": "56a18e1630807a857bd4d19cd1ac37505326b2e4411e7f3e87651f6e615bb22b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9dd0da8e1d84b368b71d3b438798542485c64e24553d01387ad272a74fdb704c"
+    },
+    {
+      "path": "analysis_options.yaml",
+      "sha256": "f2de2b3d32409892ff6819f834aa2e7671c90f9646e888fa0f6049cffe5a369e"
+    },
+    {
+      "path": "android/.gitignore",
+      "sha256": "c9af75dbc2c8aa867476a09426c80b178c4aeed8b9393ae48503eedfa3273d71"
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "sha256": "2969af47230d5fccb330574cbe1089e8ca428b7f5dbc3d0428c6e01889fe9e56"
+    },
+    {
+      "path": "android/app/src/debug/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "cb6305b590e67adb8d5cf398ca0233e562ee3af1541857b95d8bf5d2378585b7"
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/docket/docket/MainActivity.kt",
+      "sha256": "52f3e5cbb0976298fb7f30d41d5527d65d83c45a26f0600e770a98fee17fff21"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-v21/launch_background.xml",
+      "sha256": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/launch_background.xml",
+      "sha256": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+    },
+    {
+      "path": "android/app/src/main/res/values-night/styles.xml",
+      "sha256": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "sha256": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7"
+    },
+    {
+      "path": "android/app/src/profile/AndroidManifest.xml",
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "sha256": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454"
+    },
+    {
+      "path": "android/gradle.properties",
+      "sha256": "7714698de712a7872e371f0dbae626c255fc83ac1c15e52e7cd9fcaa241b5092"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "670071e5c2e25f86f82bc9db52f5d8d7c8f7b1788686a9d4c967753c69d9a2b4"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "sha256": "d6b16579d5f6a6066cc22323c4e34adb82020f7b75378bffed7f0358bc949ce3"
+    },
+    {
+      "path": "docs/auth-feasibility.md",
+      "sha256": "d5c88712a283f8221652f8e5158c2b13870bece0b872ebf2e4efb68a7ce4da1f"
+    },
+    {
+      "path": "docs/foundation-validation.md",
+      "sha256": "372fe17669bb831a137f99c935ea8273b0ef680c496edf932a28fb209ab329e1"
+    },
+    {
+      "path": "docs/platform-runbook.md",
+      "sha256": "69d21d784628ac75ee1fcaa9801a337f87e5725768e98f7103e76ec325d35c37"
+    },
+    {
+      "path": "integration_test/native_foundation_test.dart",
+      "sha256": "88d2a0a33ab43e097e7c11e9bd53e6ee4911d0889a42fbe23affd7e9f01cda2d"
+    },
+    {
+      "path": "ios/.gitignore",
+      "sha256": "e85b4db8ba6ed14708e5f7d3c60336e5a3067ce11329b84aa8ba5d98603ee253"
+    },
+    {
+      "path": "ios/Flutter/AppFrameworkInfo.plist",
+      "sha256": "e51cfa76fca1ae586244b43bf97423577315d2906394c1e7768ef43b8d23e161"
+    },
+    {
+      "path": "ios/Flutter/Debug.xcconfig",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7"
+    },
+    {
+      "path": "ios/Flutter/Release.xcconfig",
+      "sha256": "c0d1da54718e75f2028962b689258ecc741abf7cdaed50483aa5225264d0a7d7"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.pbxproj",
+      "sha256": "f20672cda3e53c575fa6d542ff20c50dbb038dbe64fde4125512249de08e5622"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "ac28b35c2b940210bec0fff8e424b07fd0efe9112ab178a10533583f251a386c"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "sha256": "a46c0d064503db8bf9f452b492c61fdf76f9febb8894005fe30b2facec21e550"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74"
+    },
+    {
+      "path": "ios/Runner/AppDelegate.swift",
+      "sha256": "54a5e98d6c3e8a79413ad50607b83aac8ded8828bc913eda1fe86bb33a66cd5d"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "5f8b941b774bde4496d73347c1f79cbdd786bb76fbdab9ed1f3f0cb78a0fb0d3"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "sha256": "7770183009e914112de7d8ef1d235a6a30c5834424858e0d2f8253f6b8d31926"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "sha256": "cab10a0d391ec5bc09ef50ce49e8ad401cee7ef03707ec0923a222c5c2b3d212"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "sha256": "c6e6d3b215ae744a9c391f4c4d44157eff5e739d6ad6c39f9bfa5df66dddd267"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "sha256": "5dee24dc104ac76dc162e42ae0beb163d426bf365562ee28ba7b3ad368559a60"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "sha256": "a9b21eb6f4271385655a8771f76e29eef8c1107d7879cbcfc567e6619d1f716a"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "sha256": "e677d701ffe4af7bc2935098d6b3984cc9ab7ace573e6900955a5535b12410cf"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "sha256": "7c61c42fc7b657d9cf314d32a4ec458f0647c3aaf360be1b9377857266ec2499"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "sha256": "4209a49e44a92ec40a327d3455eb1b1c153ee83d75de1c2be0a12ab18b2ff9de"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "sha256": "836c918cb613249eba0483a6b02fa3df3c1c0a89a315ee4d3b88509b83c7ab73"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "sha256": "41c7d42f6e61f8fe7f30b1ffa2256aecbc9682be06d18c4a3062043e1a2e547c"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "sha256": "5d7e5bdf01b93802bc973345b3a78c038907147625035952a08a115a563b7f81"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "sha256": "fbd112a9f3b541a1d811f71ac8e4fe68b6176687d973a5f4d99b7aa4a722e94e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "sha256": "853ac958e2416fe2540f6f61165283a3618b71a7ba5f85f65ac41c2158dfcd21"
+    },
+    {
+      "path": "ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "sha256": "bc3644fbb251ff1e18de25a4932c927850ae1a025be3dd1447940429633fe4b2"
+    },
+    {
+      "path": "ios/Runner/Base.lproj/Main.storyboard",
+      "sha256": "dcea4686c02065e56217fd19fcfb73d7509b41872e7486126149d47a18559363"
+    },
+    {
+      "path": "ios/Runner/Info.plist",
+      "sha256": "9d5841f6f457ba8272a0f3f6d11cb2f3c51c5b7dc7acecbaab85cb64f80e293f"
+    },
+    {
+      "path": "ios/Runner/Runner-Bridging-Header.h",
+      "sha256": "efe657d8b27f7f8595a0d416bffb33fe7d93bd2869d81f7353b556c439d7a1a7"
+    },
+    {
+      "path": "ios/Runner/SceneDelegate.swift",
+      "sha256": "edce811c671ca0a6ccb14753e14e16deb0d89a0adf4f1b685e362d87d8f4c366"
+    },
+    {
+      "path": "ios/RunnerTests/RunnerTests.swift",
+      "sha256": "c0e04141287eb7f9c9f3d31cf5be8cb626a9ea71351206c9121578e8b8f480c3"
+    },
+    {
+      "path": "lib/app/app.dart",
+      "sha256": "9a97059a765571ba2f49c683564e969c09cdaf6d805b0548bc95ae662561f970"
+    },
+    {
+      "path": "lib/app/bootstrap.dart",
+      "sha256": "6e05befa354859a762e761fb9aab958e69977fe31ce0a005e3220d32b55217f4"
+    },
+    {
+      "path": "lib/data/local/database.dart",
+      "sha256": "b0e8e5171cbfe4fb5b035be8bd897ebbdfd84952f3c77b555387c3c652aed4ba"
+    },
+    {
+      "path": "lib/data/local/database.g.dart",
+      "sha256": "ab6ce3ed456a4298f285ae6af6e0066f098bc086450de48652b3473845eddef0"
+    },
+    {
+      "path": "lib/data/local/fixture_repository.dart",
+      "sha256": "8d86a76eb9153efab501b57ca1b3af2c80c683568f3989963e6c1c56d38e4d20"
+    },
+    {
+      "path": "lib/features/shell/editor_draft.dart",
+      "sha256": "229ba5e72744b2944c43ae81294e5edd0d6514a52f86cd54821f8ed40c87ce96"
+    },
+    {
+      "path": "lib/features/shell/foundation_shell.dart",
+      "sha256": "a0b77d287d36e58d141d9ba9ad33c4ea85e8cd1f031d909f656585b3239d029d"
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "8bab76ef4a86e5508b1bccc5180237313c68181afb5b831e13540c6d17adb672"
+    },
+    {
+      "path": "lib/main_acceptance.dart",
+      "sha256": "c0483550cc7ded4c2c2cb9f55a5c01d5ce7a69568d14b5f923c0bc1b49f86bad"
+    },
+    {
+      "path": "lib/main_fixture.dart",
+      "sha256": "9d0e83f80407d7eafa74d69f032660436a106e4a039fe8a54a10dfa921e0920a"
+    },
+    {
+      "path": "lib/main_native_acceptance.dart",
+      "sha256": "2d33c6072920730f5bd8fd452acc1217f5bcb326bfaa71d9a94f84e8bc642ea3"
+    },
+    {
+      "path": "lib/platform/connection.dart",
+      "sha256": "caa382777eebd736fb69c53c6caeafb80f811e53af56cd0c73659df75fc0e0b1"
+    },
+    {
+      "path": "lib/platform/connection_native.dart",
+      "sha256": "bab8abbc931ba04cc4e01c70cedba94cd04861a614f1548ef5ed63476774732c"
+    },
+    {
+      "path": "lib/platform/connection_web.dart",
+      "sha256": "6b0b3a5decb6d59e91155d3d80c9ecb05b0b885dacbf70242e87f03980659a4d"
+    },
+    {
+      "path": "lib/platform/storage_backend.dart",
+      "sha256": "d75a1682fee1982ca040081c8af4b81ef33cda341b478271b196832fba303d43"
+    },
+    {
+      "path": "linux/.gitignore",
+      "sha256": "d7bbeac6ba86e2d94d8ccc63a1a2fbbac5ee7467f52f75c168165412d6ac3b60"
+    },
+    {
+      "path": "linux/CMakeLists.txt",
+      "sha256": "a5b87dd242f30bfe7b38e70cfa0c8ccd7182e51edd0916e6e3e89042219ca5c0"
+    },
+    {
+      "path": "linux/flutter/CMakeLists.txt",
+      "sha256": "4eb17836308c1cd53f6b2bb8edb3b7b30610bff3b1d9df7fecc9317f9109700c"
+    },
+    {
+      "path": "linux/flutter/generated_plugin_registrant.cc",
+      "sha256": "7861b227b10a10cc1d7643f82a246b7db35b503f2d9ff1d3c906136e6c260dce"
+    },
+    {
+      "path": "linux/flutter/generated_plugin_registrant.h",
+      "sha256": "00f93bb5b1faefdede8f6065df327522900fb0b8efee86bacf424fd947ed14bb"
+    },
+    {
+      "path": "linux/flutter/generated_plugins.cmake",
+      "sha256": "e03f251c12778bd5a5d1ae831ce0c8d057bcd94d239a1e4e0f7222075fa0bec7"
+    },
+    {
+      "path": "linux/runner/CMakeLists.txt",
+      "sha256": "81ecf2604c50f480c23d460b2ddf653ecd39df29cc5b2fe4913f1a59f008a5a7"
+    },
+    {
+      "path": "linux/runner/main.cc",
+      "sha256": "905b4dfa4eab584c1eb6244899b7d5ef56d0bceaf3bffb5ea335ed7e0ba3c549"
+    },
+    {
+      "path": "linux/runner/my_application.cc",
+      "sha256": "1667188e892ddb1d66bf89efbc63457aaaceea09b6bc1eb7908d975fe766699a"
+    },
+    {
+      "path": "linux/runner/my_application.h",
+      "sha256": "880393cb82d7feaaa95d9acd6c2317749afae0e17ea5f5ee44b456bc081b5987"
+    },
+    {
+      "path": "macos/.gitignore",
+      "sha256": "236a523a43625a2d63af3cd0f2ce8600a3668846f8cb278c1c7c5cbfd4aa4088"
+    },
+    {
+      "path": "macos/Flutter/Flutter-Debug.xcconfig",
+      "sha256": "7e9b3ee3961b7d7718b418ceaed812a5f06a4e4cec894aae712a78e159c32ab0"
+    },
+    {
+      "path": "macos/Flutter/Flutter-Release.xcconfig",
+      "sha256": "7e9b3ee3961b7d7718b418ceaed812a5f06a4e4cec894aae712a78e159c32ab0"
+    },
+    {
+      "path": "macos/Flutter/GeneratedPluginRegistrant.swift",
+      "sha256": "9ebc54b4d21464b875d1289b3dd5e44cd7e68930dbd6e8c7f954e438eb6ad499"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.pbxproj",
+      "sha256": "940a4e8ad8dae0dcddf86b75e87c3fa5d0ec88cb6f88a9c35e90f975983af31a"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "sha256": "e4dda5c0d796f2998aa91604daccdc30306a3334b1f66eee8abe5e197e178cc2"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/contents.xcworkspacedata",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38"
+    },
+    {
+      "path": "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "macos/Runner/AppDelegate.swift",
+      "sha256": "5b9cbdcb563ad8578a99b7c283958490e4af537322e9092fe1efbb3c29ab3e1b"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "992ba63d183dfb8f8e3af38ac203d834d23c004da1417c438b4c5a3d7d1d7103"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png",
+      "sha256": "6232e5815af17e25e0268b2fec7aea9e068cc92ec709e9605c2b31df4ff2a313"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png",
+      "sha256": "15591f03f31313af6fd644ed0512106cc04365130b8b73244f1cfa6dddfb4400"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png",
+      "sha256": "cc6928b5adfc00dbf526192e2705dd9af641cdf20ab4c6c7ca7cd4936dca59f0"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png",
+      "sha256": "416efd77cde932d42ef34168da24dd428a495b1f4f34bbbd125a18d2add186a2"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png",
+      "sha256": "ae8c4458e41f1e28b1e851ed87d3268d4a0351ceea427fa2a84cc94ddfb6d4c5"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png",
+      "sha256": "0a91c6c1bf242e54ee179e34629e9ef3e8a6d286c0fce01e302280a8be9277e6"
+    },
+    {
+      "path": "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png",
+      "sha256": "6ad229623498e5f1277800db3ab7cb11faf85eb2569e1213f7d8e55003c07b42"
+    },
+    {
+      "path": "macos/Runner/Base.lproj/MainMenu.xib",
+      "sha256": "776c35481f6581f14148b90071558b25f6ce6262e771988985e9fe8d3e70a472"
+    },
+    {
+      "path": "macos/Runner/Configs/AppInfo.xcconfig",
+      "sha256": "56fc5baa1deb6c3fda9f4dfe182c86f9146aaaee841ba720c38731ea6447a609"
+    },
+    {
+      "path": "macos/Runner/Configs/Debug.xcconfig",
+      "sha256": "86be603022e2a385dd7884fce4cc29255676c3dda579d3d4a56c958bf1e57de0"
+    },
+    {
+      "path": "macos/Runner/Configs/Release.xcconfig",
+      "sha256": "d1bf3f0349aadd5c58ee9d46c0ce4ce45467127c438936e9bb481d861d296565"
+    },
+    {
+      "path": "macos/Runner/Configs/Warnings.xcconfig",
+      "sha256": "aa8ded4c14068cb05f51f5446509fe56805cf1e29961ad6d5a97233bb0632bc1"
+    },
+    {
+      "path": "macos/Runner/DebugProfile.entitlements",
+      "sha256": "b2aa41d03e18907d360b721b7bb3edb302897c8a3de98ec47b6665033fea0b0e"
+    },
+    {
+      "path": "macos/Runner/Info.plist",
+      "sha256": "047f9cb0f1122c04589483beaedbbe23492fdc8946b94e09bb13080736af4f93"
+    },
+    {
+      "path": "macos/Runner/MainFlutterWindow.swift",
+      "sha256": "8178ad756f958f986f794a8bb06e321a6630ceaaf8f235b3b4ae3936e415dc7c"
+    },
+    {
+      "path": "macos/Runner/Release.entitlements",
+      "sha256": "c3b881c72aa4cca9cf50da6654c4d675dec929056692af46a6fbecd00aef5990"
+    },
+    {
+      "path": "macos/RunnerTests/RunnerTests.swift",
+      "sha256": "8a0ff977c64ceac0750fffa48087988b7b4125d1b1c49019221e7fffb574423e"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/.openspec.yaml",
+      "sha256": "ffd9b7982522c024da44a592ed8e59a9fe828351bb4666d06dc3bc863f19380b"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/design.md",
+      "sha256": "59315da90dc60f237ce3e297e38353a974cafe72d288fcff4e7f67a8bb7305bb"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/proposal.md",
+      "sha256": "40bd54fcbd6d57ec3015cb933d3eb05f7ee3f3c457c46cd32de78d460d46d650"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/specs/adaptive-navigation-foundation/spec.md",
+      "sha256": "45d09c10723b4ab3689a7eb2b5d4c2390f092254ce8279af5c714696b2be8df7"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/specs/application-foundation/spec.md",
+      "sha256": "38f7b2691519c626ea69ed92435d016397671605c9b86057d5c2db3e9d2a0fde"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/specs/foundation-validation/spec.md",
+      "sha256": "0e91315ee7d1e8914a27bddd6d55dd13fa70ea3f39587ac763d7ec16e6a90fd2"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/specs/local-persistence-foundation/spec.md",
+      "sha256": "23fc69209b243685e6cba54ed27a1487cf84af1f88295942c35564bd8d005040"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/specs/web-offline-foundation/spec.md",
+      "sha256": "e0b68fbf85b41bf2547e85c75e551a1e878a86b1c8b42316254865e5e66adebe"
+    },
+    {
+      "path": "openspec/changes/validate-cross-platform-foundations/tasks.md",
+      "sha256": "21649ae9c21dbf903a722e5736fa75f12813ab4fa82aad066cd20bf7ce92154a"
+    },
+    {
+      "path": "openspec/config.yaml",
+      "sha256": "21c9b26b8bc9d8df17965b49294fc1216cb017487489436c6a209bec2687e0cf"
+    },
+    {
+      "path": "openspec/explorations/2026-10-03-docket-foundation.md",
+      "sha256": "5d199397663ebe21974b9e4d8a4a026d62a69d6ee95ad324dd97704a4a11374f"
+    },
+    {
+      "path": "openspec/explorations/2026-10-03-taskmaster-reference-audit.md",
+      "sha256": "f1729473d04b82ba4f03db0d8499f0d45b3ea15d68df5e99368552c7117cafe0"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "05c35b9f5ad417130ce8c24893e5afbab58cdb46a0008a89a096c02571f553f2"
+    },
+    {
+      "path": "package.json",
+      "sha256": "0b0e770f4420ee0780c0732191484bdf25b042832a699edbfed046e3544ed5d5"
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "790128217800194a36d6de2a13849a43c365e500945a651f4a50072c7d219270"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "43827b1d87eccd6a7902e58b5b45e2caa88422e92b2c98ea13e61079eb7b4d52"
+    },
+    {
+      "path": "test/fixtures/v1.sql",
+      "sha256": "6fa8c2bef2fb593ba54974d90ef50d41f63b115fe20c8c54b78c80bc48923bca"
+    },
+    {
+      "path": "test/fixtures/v2.sql",
+      "sha256": "6a746a91cb7428fd50cd01bb633362603a9fde0c500a12ab8df682a97f745fa3"
+    },
+    {
+      "path": "test/shell_test.dart",
+      "sha256": "ebba683526119035220484345b924345fa601e4fe571c74b6ee660d5b1a6267f"
+    },
+    {
+      "path": "test/storage_test.dart",
+      "sha256": "daf26df508da9583c73fe2d833b0206253bffc3bd981a1f3b0575ed3ffa2b00b"
+    },
+    {
+      "path": "tool/browser_acceptance.mjs",
+      "sha256": "107171d7782e5371621b4446f2e68dbbcd2ed8270c66e3a6af47e09cc87fb70e"
+    },
+    {
+      "path": "tool/host_web.mjs",
+      "sha256": "840207c4f4612fb6530a8eb552378365658ad52a9e293eee049cb3722ba43665"
+    },
+    {
+      "path": "tool/native_reopen.ps1",
+      "sha256": "be2dc38c07e611092c51c3ccbbf59de79522fa116275e4408c0ff365731ce79d"
+    },
+    {
+      "path": "tool/prepare_web.ps1",
+      "sha256": "5b7272790ac722d10d1fcded3015b2a9859b0f8a7f9d8c25229502aae9cdf864"
+    },
+    {
+      "path": "tool/seal_web.mjs",
+      "sha256": "1764209740886824a8ed7a68ae7423d27ad2a24287cf03eef992e868505e2e02"
+    },
+    {
+      "path": "tool/service_worker.template.js",
+      "sha256": "1fcd948c699b13b2f631e78310a6747a9a5499f75f68813f567c6f28cefedc96"
+    },
+    {
+      "path": "tool/source_manifest.mjs",
+      "sha256": "21128d7220918add7fecc803eb3f520e71349c11bb04ba058656dd1d82b5a465"
+    },
+    {
+      "path": "tool/verify.ps1",
+      "sha256": "bb4528edbfbd06007db70dc0d2444612287c8f342544bcc994bc6d44c9a2fbd1"
+    },
+    {
+      "path": "web/favicon.png",
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+    },
+    {
+      "path": "web/flutter_bootstrap.js",
+      "sha256": "6409b4bd827a5a325280379a4b7e064fad9ba0f1c782649f5df62992f9c7db8d"
+    },
+    {
+      "path": "web/icons/Icon-192.png",
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+    },
+    {
+      "path": "web/icons/Icon-512.png",
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+    },
+    {
+      "path": "web/icons/Icon-maskable-192.png",
+      "sha256": "d2c842e22a9f4ec9d996b23373a905c88d9a203b220c5c151885ad621f974b5c"
+    },
+    {
+      "path": "web/icons/Icon-maskable-512.png",
+      "sha256": "6aee06cdcab6b2aef74b1734c4778f4421d2da100b0ff9e52b21b55240202929"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "7bb693cdada62309492b5fa9a838b6b89ce7e4b9f297f861b790b961d1bb5c42"
+    },
+    {
+      "path": "web/manifest.json",
+      "sha256": "0cb4ed34efb076d0aa23a1f83c0c5d93891fd13ce710b611c53d8c9ad54349a6"
+    },
+    {
+      "path": "web/offline.js",
+      "sha256": "c05d1e3f679987c4f72348f200ee64198f836d253805688c24378db1fd930269"
+    },
+    {
+      "path": "web/schema_marker.js",
+      "sha256": "f04667e031aaad3201691eb423f1aa18357ab1ef4eff1834ace8a3bb87de2fca"
+    },
+    {
+      "path": "windows/.gitignore",
+      "sha256": "955e3110cb16494ee76e1cd5df47e2c212309eb94a49a123fe87f718de413cb8"
+    },
+    {
+      "path": "windows/CMakeLists.txt",
+      "sha256": "03f05574658e8b2d1d5be8a17826b680ccef607aa0c31b19afd0fe29462615d7"
+    },
+    {
+      "path": "windows/flutter/CMakeLists.txt",
+      "sha256": "bd05e3268b2f246bcbafdb778165fe67a7bafdba04eb73599502563a67b8ae7e"
+    },
+    {
+      "path": "windows/flutter/generated_plugin_registrant.cc",
+      "sha256": "82e02567f2faf5e732dc92a2fb0d01104f7ba8c48973f8cfd41a860b4fac3f3b"
+    },
+    {
+      "path": "windows/flutter/generated_plugin_registrant.h",
+      "sha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a"
+    },
+    {
+      "path": "windows/flutter/generated_plugins.cmake",
+      "sha256": "3f02c11f2d7c72d742dd5b3871def3dc815f3ab70615d4a3293e15e7b45eb0e7"
+    },
+    {
+      "path": "windows/runner/CMakeLists.txt",
+      "sha256": "d765fdd05f63ad099e585a2cced0cbff13ec3229b7de68c8681b2107db850089"
+    },
+    {
+      "path": "windows/runner/Runner.rc",
+      "sha256": "75d95dbc1e52eb3808ab0d9d458ae7b435d4750de609692edb24cf4fa71dada3"
+    },
+    {
+      "path": "windows/runner/flutter_window.cpp",
+      "sha256": "d615eedc06ae37321e59c2c00c7687d1887dcd97904eb7225fafd8dcb5b83da6"
+    },
+    {
+      "path": "windows/runner/flutter_window.h",
+      "sha256": "0252b804f5da380c7709cbe1daff2b8d18daf6c49d7e6dd43e5af3c99c19f56c"
+    },
+    {
+      "path": "windows/runner/main.cpp",
+      "sha256": "3c3678882e135225d46cb580e006d4650278e07012697f7a543416a390f83b15"
+    },
+    {
+      "path": "windows/runner/resource.h",
+      "sha256": "d0e8bf7835468b4b6b1f8f0747f2e8f25c19841f2df2ac60aaa584ddae3aa7c6"
+    },
+    {
+      "path": "windows/runner/resources/app_icon.ico",
+      "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8"
+    },
+    {
+      "path": "windows/runner/runner.exe.manifest",
+      "sha256": "639a56233fcd8cbcb8bbefcd93e4680ec2664f32d9acfb3d2ec1d8726a96e090"
+    },
+    {
+      "path": "windows/runner/utils.cpp",
+      "sha256": "a128b67b9f3c2579e2ecef5b0dde2c33f222a097cdfe5da2a3067c73d1485b39"
+    },
+    {
+      "path": "windows/runner/utils.h",
+      "sha256": "832e246b6758253f89016fb0374b30791242e97ad950d27fc678b3d9feacfdc4"
+    },
+    {
+      "path": "windows/runner/win32_window.cpp",
+      "sha256": "4e4f4dcf8e86ea6e097562cb3476039e693449bd8045367538afee579c017511"
+    },
+    {
+      "path": "windows/runner/win32_window.h",
+      "sha256": "d154cf89ba85f820631a9b5bedacbe64fc5815e428fe6bc5da579ce649f69841"
+    }
+  ]
+}

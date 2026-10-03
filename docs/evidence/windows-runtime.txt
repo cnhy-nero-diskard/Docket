@@ -1,0 +1,24 @@
+Executed 2026-10-03 on Windows 11 Pro 23H2 build 22631.6199.
+Flutter 3.44.9 / Dart 3.12.2; base 9c542bc plus foundation implementation.
+Command: flutter test integration_test/native_foundation_test.dart -d windows --no-pub --reporter expanded
+
+Output excerpt:
+Building Windows application...                                    18.4s
+Built build/windows/x64/runner/Debug/docket.exe
+00:00 +0: native offline foundation, input, resize and measured bulk workload
+00:07 +1: (tearDownAll)
+00:07 +1: All tests passed!
+
+Includes actual native SQLite migration and injected-failure preservation,
+HTTP-disabled runtime, committed writes, failed-save retained draft,
+Flutter pointer/keyboard dispatch, Ctrl+A ownership, Escape/Enter focus return,
+native layout-constraint resizing, independent pane scroll, and batched workload.
+Native screenshot and timings are companion artifacts. This is automated
+Flutter-view runtime coverage, not manual OS keyboard/window-drag acceptance.
+
+Separate release-process check:
+flutter build windows --release --no-pub -t lib/main_native_acceptance.dart
+powershell -NoProfile -ExecutionPolicy Bypass -File tool/native_reopen.ps1
+PASS: committed item-000 survived Stop-Process -Force and a new application
+process recovered its identity, title and notes with HTTP disabled.
+See native-commit.json and native-reopen.json for recorded values.

@@ -1,0 +1,6 @@
+00:00 +0: loading <worktree>/integration_test/native_foundation_test.dart
+Building Windows application...                                    19.9s
+√ Built build\windows\x64\runner\Debug\docket.exe
+00:00 +0: native offline foundation, input, resize and measured bulk workload
+00:08 +1: (tearDownAll)
+00:08 +1: All tests passed!

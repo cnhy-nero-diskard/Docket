@@ -1,0 +1,15 @@
+00:00 +0: loading <worktree>/test/shell_test.dart
+00:00 +0: <worktree>/test/shell_test.dart: minimum widths and large text choose usable composition
+00:00 +1: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +2: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +3: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +4: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +5: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +6: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +7: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +8: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +9: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +10: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:00 +11: <worktree>/test/shell_test.dart: ordinary startup is auth-free, fixture-free, and reports local failure
+00:01 +12: <worktree>/test/shell_test.dart: routes, draft, scroll, keyboard ownership, parent fallback and boundaries
+00:03 +13: All tests passed!

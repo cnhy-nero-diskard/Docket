@@ -1,0 +1,19 @@
+Executed 2026-10-03 on Android 15/API 35 x86_64 emulator-5554.
+Source: base 9c542bc plus the foundation worktree implementation.
+Command: flutter test integration_test/native_foundation_test.dart -d emulator-5554 --no-pub --reporter expanded
+
+Sanitized output excerpt (Gradle toolchain arguments and machine paths omitted):
+Running Gradle task 'assembleDebug'...                            201.9s
+Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          744ms
+00:00 +0: native offline foundation, input, resize and measured bulk workload
+00:13 +1: (tearDownAll)
+00:14 +1: All tests passed!
+
+Coverage: real emulator application build and runtime, local seed/write/reopen
+between commands, injected write failure and retained draft, navigation, Flutter
+test-dispatched key/pointer input, and 10,000-row workload. Windows-specific
+migration/resize branches were not executed on Android. Physical Android device,
+forced Android process kill/reopen, and Android lifecycle release acceptance
+remain NOT RUN. The integration runner removed the package after completion;
+no Android screenshot or performance trace is retained here.

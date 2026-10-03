@@ -1,0 +1,1 @@
+Change 'validate-cross-platform-foundations' is valid

@@ -1,0 +1,71 @@
+{
+  "platform": "windows",
+  "build": "integration_test debug native runner",
+  "recordCount": 10000,
+  "elapsedMs": 684,
+  "progressUpdates": 40,
+  "navigationAndScrollFrames": 9,
+  "frames": [
+    {
+      "buildUs": 479,
+      "rasterUs": 895,
+      "totalUs": 2706
+    },
+    {
+      "buildUs": 39155,
+      "rasterUs": 1076,
+      "totalUs": 40793
+    },
+    {
+      "buildUs": 62706,
+      "rasterUs": 976,
+      "totalUs": 65861
+    },
+    {
+      "buildUs": 65705,
+      "rasterUs": 1207,
+      "totalUs": 69783
+    },
+    {
+      "buildUs": 46830,
+      "rasterUs": 1174,
+      "totalUs": 48988
+    },
+    {
+      "buildUs": 45023,
+      "rasterUs": 653,
+      "totalUs": 45848
+    },
+    {
+      "buildUs": 51638,
+      "rasterUs": 978,
+      "totalUs": 53599
+    },
+    {
+      "buildUs": 42349,
+      "rasterUs": 735,
+      "totalUs": 44099
+    },
+    {
+      "buildUs": 84063,
+      "rasterUs": 885,
+      "totalUs": 85664
+    },
+    {
+      "buildUs": 26431,
+      "rasterUs": 641,
+      "totalUs": 27278
+    },
+    {
+      "buildUs": 28279,
+      "rasterUs": 1024,
+      "totalUs": 29418
+    },
+    {
+      "buildUs": 2941,
+      "rasterUs": 898,
+      "totalUs": 5715
+    }
+  ],
+  "input": "Flutter integration-test pointer/key dispatch; not manual OS input"
+}
